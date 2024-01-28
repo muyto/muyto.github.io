@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{{ TITLE }}}</title>
+    <style>
+      body {
+          background-color: #000;
+      }
+      canvas {
+          background-color: #000;
+          padding: 0;
+          margin: auto;
+          display: block;
+          width: 1280px;
+          border: 1px solid #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" oncontextmenu="event.preventDefault()" width="1280" height="720">
+      Wow! A browser that doesn't support canvas?
+    </canvas>
+    <script type="text/javascript">
+      var Module = {};
+      Module.canvas = document.getElementById('canvas');
+    </script>
+    <script async type="text/javascript" src="jan.js"></script>
+  </body>
+</html>
