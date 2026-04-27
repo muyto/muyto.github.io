@@ -784,49 +784,49 @@ function dbg(...args) {
 // === Body ===
 
 var ASM_CONSTS = {
-  89902: () => { if (document.fullscreenElement) return 1; },  
- 89948: () => { return Module.canvas.width; },  
- 89980: () => { return parseInt(Module.canvas.style.width); },  
- 90028: () => { document.exitFullscreen(); },  
- 90055: () => { setTimeout(function(){ Module.requestFullscreen(false, false); }, 100); },  
- 90127: () => { if (document.fullscreenElement) return 1; },  
- 90173: () => { return Module.canvas.width; },  
- 90205: () => { return screen.width; },  
- 90230: () => { document.exitFullscreen(); },  
- 90257: ($0) => { const canvasId = UTF8ToString($0); setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { document.querySelector(canvasId).style.width="unset"; }, 100); }, 100); },  
- 90451: () => { return window.innerWidth; },  
- 90477: () => { return window.innerHeight; },  
- 90504: () => { if (document.fullscreenElement) return 1; },  
- 90550: () => { return Module.canvas.width; },  
- 90582: () => { return parseInt(Module.canvas.style.width); },  
- 90630: () => { if (document.fullscreenElement) return 1; },  
- 90676: () => { return Module.canvas.width; },  
- 90708: () => { return screen.width; },  
- 90733: () => { return window.innerWidth; },  
- 90759: () => { return window.innerHeight; },  
- 90786: () => { if (document.fullscreenElement) return 1; },  
- 90832: () => { return Module.canvas.width; },  
- 90864: () => { return screen.width; },  
- 90889: () => { document.exitFullscreen(); },  
- 90916: () => { if (document.fullscreenElement) return 1; },  
- 90962: () => { return Module.canvas.width; },  
- 90994: () => { return parseInt(Module.canvas.style.width); },  
- 91042: () => { document.exitFullscreen(); },  
- 91069: ($0) => { Module.canvas.style.opacity = $0; },  
- 91107: () => { return screen.width; },  
- 91132: () => { return screen.height; },  
- 91158: () => { return window.screenX; },  
- 91185: () => { return window.screenY; },  
- 91212: () => { return window.devicePixelRatio; },  
- 91248: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
- 91301: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
- 91352: () => { Module.canvas.style.cursor = 'none'; },  
- 91389: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
- 91645: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
- 91696: () => { if (document.pointerLockElement) return 1; },  
- 91743: () => { if (document.fullscreenElement) return 1; },  
- 91789: () => { return window.innerWidth; },  
- 91815: () => { return window.innerHeight; }
+  103966: () => { if (document.fullscreenElement) return 1; },  
+ 104012: () => { return Module.canvas.width; },  
+ 104044: () => { return parseInt(Module.canvas.style.width); },  
+ 104092: () => { document.exitFullscreen(); },  
+ 104119: () => { setTimeout(function(){ Module.requestFullscreen(false, false); }, 100); },  
+ 104191: () => { if (document.fullscreenElement) return 1; },  
+ 104237: () => { return Module.canvas.width; },  
+ 104269: () => { return screen.width; },  
+ 104294: () => { document.exitFullscreen(); },  
+ 104321: ($0) => { const canvasId = UTF8ToString($0); setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { document.querySelector(canvasId).style.width="unset"; }, 100); }, 100); },  
+ 104515: () => { return window.innerWidth; },  
+ 104541: () => { return window.innerHeight; },  
+ 104568: () => { if (document.fullscreenElement) return 1; },  
+ 104614: () => { return Module.canvas.width; },  
+ 104646: () => { return parseInt(Module.canvas.style.width); },  
+ 104694: () => { if (document.fullscreenElement) return 1; },  
+ 104740: () => { return Module.canvas.width; },  
+ 104772: () => { return screen.width; },  
+ 104797: () => { return window.innerWidth; },  
+ 104823: () => { return window.innerHeight; },  
+ 104850: () => { if (document.fullscreenElement) return 1; },  
+ 104896: () => { return Module.canvas.width; },  
+ 104928: () => { return screen.width; },  
+ 104953: () => { document.exitFullscreen(); },  
+ 104980: () => { if (document.fullscreenElement) return 1; },  
+ 105026: () => { return Module.canvas.width; },  
+ 105058: () => { return parseInt(Module.canvas.style.width); },  
+ 105106: () => { document.exitFullscreen(); },  
+ 105133: ($0) => { Module.canvas.style.opacity = $0; },  
+ 105171: () => { return screen.width; },  
+ 105196: () => { return screen.height; },  
+ 105222: () => { return window.screenX; },  
+ 105249: () => { return window.screenY; },  
+ 105276: () => { return window.devicePixelRatio; },  
+ 105312: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
+ 105365: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
+ 105416: () => { Module.canvas.style.cursor = 'none'; },  
+ 105453: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
+ 105709: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
+ 105760: () => { if (document.pointerLockElement) return 1; },  
+ 105807: () => { if (document.fullscreenElement) return 1; },  
+ 105853: () => { return window.innerWidth; },  
+ 105879: () => { return window.innerHeight; }
 };
 function SetCanvasIdJs(out,outSize) { var canvasId = "#" + Module.canvas.id; stringToUTF8(canvasId, out, outSize); }
 function __asyncjs__RequestClipboardData() { return Asyncify.handleAsync(async () => { if (navigator.clipboard && window.isSecureContext) { let items = await navigator.clipboard.read(); for (const item of items) { if (item.types.includes("text/plain")) { const blob = await item.getType("text/plain"); const text = await blob.text(); window._lastClipboardString = text; } else if (item.types.find(t => t.startsWith("image/"))) { const blob = await item.getType(item.types.find(t => t.startsWith("image/"))); const bitmap = await createImageBitmap(blob); const canvas = document.createElement('canvas'); canvas.width = bitmap.width; canvas.height = bitmap.height; const ctx = canvas.getContext('2d'); ctx.drawImage(bitmap, 0, 0); const imgData = ctx.getImageData(0, 0, canvas.width, canvas.height).data; window._lastImgWidth = canvas.width; window._lastImgHeight = canvas.height; window._lastImgData = imgData; } } } else console.warn("Clipboard read() requires HTTPS/Localhost"); }); }
@@ -7463,6 +7463,7 @@ function GetLastPastedImage(width,height) { if (window._lastImgData) { const dat
 
 
 
+
   
   
   
@@ -9908,6 +9909,8 @@ var wasmImports = {
   /** @export */
   glReadPixels: _glReadPixels,
   /** @export */
+  glScissor: _glScissor,
+  /** @export */
   glShaderSource: _glShaderSource,
   /** @export */
   glTexImage2D: _glTexImage2D,
@@ -9991,12 +9994,12 @@ var _emscripten_stack_get_end = () => (_emscripten_stack_get_end = wasmExports['
 var __emscripten_stack_restore = (a0) => (__emscripten_stack_restore = wasmExports['_emscripten_stack_restore'])(a0);
 var __emscripten_stack_alloc = (a0) => (__emscripten_stack_alloc = wasmExports['_emscripten_stack_alloc'])(a0);
 var _emscripten_stack_get_current = () => (_emscripten_stack_get_current = wasmExports['emscripten_stack_get_current'])();
+var dynCall_viiii = Module['dynCall_viiii'] = createExportWrapper('dynCall_viiii', 5);
 var dynCall_iiii = Module['dynCall_iiii'] = createExportWrapper('dynCall_iiii', 4);
 var dynCall_vii = Module['dynCall_vii'] = createExportWrapper('dynCall_vii', 3);
 var dynCall_viii = Module['dynCall_viii'] = createExportWrapper('dynCall_viii', 4);
 var dynCall_viff = Module['dynCall_viff'] = createExportWrapper('dynCall_viff', 4);
 var dynCall_viiiii = Module['dynCall_viiiii'] = createExportWrapper('dynCall_viiiii', 6);
-var dynCall_viiii = Module['dynCall_viiii'] = createExportWrapper('dynCall_viiii', 5);
 var dynCall_vidd = Module['dynCall_vidd'] = createExportWrapper('dynCall_vidd', 4);
 var dynCall_ii = Module['dynCall_ii'] = createExportWrapper('dynCall_ii', 2);
 var dynCall_vi = Module['dynCall_vi'] = createExportWrapper('dynCall_vi', 2);
