@@ -74,7 +74,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmp2lyopzza.js
+// include: /tmp/tmpw4zc3tif.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -199,25 +199,25 @@ Module['FS_createPath']("/", "assets", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/assets/alpha_beta.png", "start": 0, "end": 1828}, {"filename": "/assets/amethyst.png", "start": 1828, "end": 69573}, {"filename": "/assets/citrine.png", "start": 69573, "end": 131513}, {"filename": "/assets/cyan.png", "start": 131513, "end": 235957}, {"filename": "/assets/diamond.png", "start": 235957, "end": 299663}, {"filename": "/assets/element_a.png", "start": 299663, "end": 378877}, {"filename": "/assets/element_b.png", "start": 378877, "end": 459437}, {"filename": "/assets/element_c.png", "start": 459437, "end": 535535}, {"filename": "/assets/element_d.png", "start": 535535, "end": 611143}, {"filename": "/assets/element_e.png", "start": 611143, "end": 690407}, {"filename": "/assets/element_f.png", "start": 690407, "end": 771180}, {"filename": "/assets/emerald.png", "start": 771180, "end": 840491}, {"filename": "/assets/font.png", "start": 840491, "end": 842096}, {"filename": "/assets/green.png", "start": 842096, "end": 951696}, {"filename": "/assets/light_blue.png", "start": 951696, "end": 1056594}, {"filename": "/assets/pink.png", "start": 1056594, "end": 1119673}, {"filename": "/assets/pop.ogg", "start": 1119673, "end": 1128251}, {"filename": "/assets/pop.wav", "start": 1128251, "end": 1523137}, {"filename": "/assets/pop2.wav", "start": 1523137, "end": 1918023}, {"filename": "/assets/purple.png", "start": 1918023, "end": 2039948}, {"filename": "/assets/rainbow.png", "start": 2039948, "end": 2212400}, {"filename": "/assets/red.png", "start": 2212400, "end": 2342330}, {"filename": "/assets/ruby.png", "start": 2342330, "end": 2405758}, {"filename": "/assets/sapphire.png", "start": 2405758, "end": 2471831}, {"filename": "/assets/selection.png", "start": 2471831, "end": 2535667}, {"filename": "/assets/sound.wav", "start": 2535667, "end": 2856013}, {"filename": "/assets/yellow.png", "start": 2856013, "end": 2949299}], "remote_package_size": 2949299});
+    loadPackage({"files": [{"filename": "/assets/LilitaOne-OFL.txt", "start": 0, "end": 4392}, {"filename": "/assets/LilitaOne-Regular.ttf", "start": 4392, "end": 32484}, {"filename": "/assets/alpha_beta.png", "start": 32484, "end": 34312}, {"filename": "/assets/amethyst.png", "start": 34312, "end": 102057}, {"filename": "/assets/citrine.png", "start": 102057, "end": 163997}, {"filename": "/assets/cyan.png", "start": 163997, "end": 193574}, {"filename": "/assets/diamond.png", "start": 193574, "end": 257280}, {"filename": "/assets/element_a.png", "start": 257280, "end": 336494}, {"filename": "/assets/element_b.png", "start": 336494, "end": 417054}, {"filename": "/assets/element_c.png", "start": 417054, "end": 493152}, {"filename": "/assets/element_d.png", "start": 493152, "end": 568760}, {"filename": "/assets/element_e.png", "start": 568760, "end": 648024}, {"filename": "/assets/element_f.png", "start": 648024, "end": 728797}, {"filename": "/assets/emerald.png", "start": 728797, "end": 798108}, {"filename": "/assets/font.png", "start": 798108, "end": 799713}, {"filename": "/assets/green.png", "start": 799713, "end": 826922}, {"filename": "/assets/light_blue.png", "start": 826922, "end": 853892}, {"filename": "/assets/pink.png", "start": 853892, "end": 881198}, {"filename": "/assets/pop.ogg", "start": 881198, "end": 889776}, {"filename": "/assets/pop.wav", "start": 889776, "end": 1284662}, {"filename": "/assets/pop2.wav", "start": 1284662, "end": 1679548}, {"filename": "/assets/purple.png", "start": 1679548, "end": 1709620}, {"filename": "/assets/rainbow.png", "start": 1709620, "end": 1882072}, {"filename": "/assets/red.png", "start": 1882072, "end": 1909378}, {"filename": "/assets/ruby.png", "start": 1909378, "end": 1972806}, {"filename": "/assets/sapphire.png", "start": 1972806, "end": 2038879}, {"filename": "/assets/selection.png", "start": 2038879, "end": 2102715}, {"filename": "/assets/sound.wav", "start": 2102715, "end": 2423061}, {"filename": "/assets/yellow.png", "start": 2423061, "end": 2449520}], "remote_package_size": 2449520});
 
   })();
 
-// end include: /tmp/tmp2lyopzza.js
-// include: /tmp/tmpqkb9z_10.js
+// end include: /tmp/tmpw4zc3tif.js
+// include: /tmp/tmp_de9r1vh.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmpqkb9z_10.js
-// include: /tmp/tmppghg05xp.js
+  // end include: /tmp/tmp_de9r1vh.js
+// include: /tmp/tmprkx4gwjn.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmppghg05xp.js
+  // end include: /tmp/tmprkx4gwjn.js
 
 
 var arguments_ = [];
